@@ -208,6 +208,7 @@ margin-left:250px
 
 
 @media (max-width: 576px) { 
+
     /* navbar */
 
 .nav {
@@ -224,7 +225,7 @@ margin-left:250px
 }
 .nav h1 {
     padding: 18px 5px 15px 5px;
-    font-size:20px;
+    font-size:clamp(20px);
 }
 
 .nav ul{
@@ -273,13 +274,13 @@ margin-left:250px
 .tentang h1{
     /* background-color:blue; */
     margin: 50px 0px 0px 10px;
-    font-size: 35px;
+    font-size:clamp(35px);
     
 }
 
 .tentang h3{
     margin-left: 10px;
-    font-size: 15px;
+    font-size:clamp(15px);
 }
 
 /* .tentang button {
@@ -326,7 +327,7 @@ margin-left:35px
 
 .tentang-section {
     /* background-color:red; */
-    font-size: 17px;
+    font-size: clamp(17px);
     font-weight: bold;
     margin: 10px 0px 0px 70px;
 }
@@ -337,7 +338,7 @@ margin-left:35px
     margin: 70px 150px 10px 210px;
     height:20px;
     font-weight: bold;
-    font-size:25px;
+    font-size:clamp(25px);
 
 }
 
@@ -349,7 +350,7 @@ margin-left:35px
 
 .persentasi-project{
     /* background-color:green; */
-    font-size:15px;
+    font-size:clamp(15px);
     margin-left:30px;
     margin-top:20px;
     padding:10px;
@@ -376,12 +377,12 @@ margin-left:35px
 
 .front-project h2{
     margin: 10px 0px 0px 20px;
-    font-size:25px;
+    font-size:clamp(25px);
 }
 
 .front-project p{
     margin: 30px 0px 0px 0px;
-    font-size:15px;
+    font-size:clamp(15px);
 }
 
 /* footer */
@@ -402,13 +403,13 @@ margin-left:35px
 
 .sosial p {
     padding: 5px 5px 5px 0px;
-    font-size:15px;
+    font-size:clamp(15px);
     font-weight:bold;
 }
 .sosial h3 {
     /* background-color: green; */
     margin-left:30px;
     margin-top:4px;
-    font-size:15px;
+    font-size:clamp(15px);
 }
  }
