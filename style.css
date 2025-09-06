@@ -161,6 +161,11 @@ margin-left:250px
     margin-top: 50px;
 }
 
+.front-project img{
+    weight:300px;
+    height:200px;
+}
+
 .front-project h2{
     margin: 10px 0px 0px 40px;
     font-size:40px;
@@ -198,3 +203,212 @@ margin-left:250px
     margin-top:4px;
     font-size:20px;
 }
+
+/* ukuran hp */
+
+
+@media (max-width: 576px) { 
+    /* navbar */
+
+.nav {
+    /* background-color:red; */
+     position: fixed; 
+    /* position: sticky; */
+    margin: 10px 10px 10px 10px;
+    padding: 5px 5px 15px 5px;
+    display:flex;
+    justify-content: space-between;
+    
+    
+
+}
+.nav h1 {
+    padding: 18px 5px 15px 5px;
+    font-size:20px;
+}
+
+.nav ul{
+    display: flex;
+    list-style-type:none;
+}
+
+.nav li{
+    padding:20px 10px 10px 10px;
+    
+}
+
+.nav a {
+    text-decoration:none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* konten */
+
+.content {
+    /* background-color: #f7f7f7; */
+    display:flex;
+    margin: auto;
+}
+
+.tentang{
+     /* background-color:red; */
+    background-image:linear-gradient(
+        to bottom,
+        white 0%,
+        #F9FBFB 100%
+    );
+   
+    border-radius: 20px 10px 80px 10px;
+    margin-right:50px;
+    margin-top:100px;
+    margin-left:15px;
+    height: 230px;
+    padding-right:10px
+    
+
+}
+.tentang h1{
+    /* background-color:blue; */
+    margin: 50px 0px 0px 10px;
+    font-size: 35px;
+    
+}
+
+.tentang h3{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+/* .tentang button {
+    margin: 100px 10px 0px 200px;
+    color: white;
+    background-color: black;
+    height:30px;
+    padding: 5px 5px 5px 5px;
+} */
+
+.gambar-profil img {
+ width: 250px;
+height: 250px;
+margin-top:75px;
+object-fit: cover;
+ object-position: center;
+  
+}
+
+/* backround */
+
+.background-section{
+    /* background-color: #f7f7f7; */
+    /* display:flex; */
+    /* margin: auto; */
+
+}
+
+.background-section img{
+width: 83%;
+height: 200px;
+object-fit: cover;
+object-position: center;
+border-radius: 40px 20px 60px 90px;
+margin-top: 70px;
+margin-left:35px
+}
+
+/* .background-foto {
+    margin: 130px 100px 3px 700px;
+    height:40px;
+    font-weight: bold;
+} */
+
+.tentang-section {
+    /* background-color:red; */
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px 0px 0px 70px;
+}
+
+/* project */
+.judul-project{
+    /* background-color: red; */
+    margin: 70px 150px 10px 210px;
+    height:20px;
+    font-weight: bold;
+    font-size:25px;
+
+}
+
+.my-project {
+    /* background-color: #f7f7f7; */
+    display:flex;
+    margin-left: 70px ;
+}
+
+.persentasi-project{
+    /* background-color:green; */
+    font-size:15px;
+    margin-left:30px;
+    margin-top:20px;
+    padding:10px;
+    height:70px;
+    text-align:center;
+    font-weight: bold;
+    
+
+}
+
+/* project */
+
+.front-project{
+    /* background-color: red; */
+    display:flex;
+    margin-left:10px;
+    margin-top: 30px;
+}
+
+.front-project img{
+    weight:230px;
+    height:150px;
+}
+
+.front-project h2{
+    margin: 10px 0px 0px 20px;
+    font-size:25px;
+}
+
+.front-project p{
+    margin: 30px 0px 0px 0px;
+    font-size:15px;
+}
+
+/* footer */
+
+.footer{
+    background-color:grey;
+    display:flex;
+    /* justify-content: space-between; */
+}
+
+.sosial{
+    /* background-color:red; */
+    display:flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 20%;
+    padding: 5px 5px 5px 5px;
+}
+
+.sosial p {
+    padding: 5px 5px 5px 0px;
+    font-size:15px;
+    font-weight:bold;
+}
+.sosial h3 {
+    /* background-color: green; */
+    margin-left:30px;
+    margin-top:4px;
+    font-size:15px;
+}
+ }
