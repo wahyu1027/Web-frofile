@@ -279,7 +279,7 @@ margin-left:250px
 .tentang h1{
     /* background-color:blue; */
     margin: 50px 0px 0px 5px;
-    font-size: 20px;
+    font-size: 30px;
     
 }
 
@@ -342,7 +342,7 @@ margin-left:35px
 /* project */
 .judul-project{
     background-color: red;
-    margin: 70px 0px 10px 100px;
+    margin: 70px 0px 10px 80px;
     padding-left:100px;
     height:20px;
     font-weight: bold;
@@ -353,7 +353,7 @@ margin-left:35px
 .my-project {
     /* background-color: #f7f7f7; */
     display:flex;
-    margin-left: 70px ;
+    margin-left: 40px ;
 }
 
 .persentasi-project{
