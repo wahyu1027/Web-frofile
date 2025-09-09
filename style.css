@@ -286,6 +286,7 @@ margin-left:250px
 .tentang h3{
     margin-left: 5px;
     font-size: 7px;
+    margin-top:7px;
 }
 
 /* .tentang button {
@@ -297,7 +298,7 @@ margin-left:250px
 } */
 
 .gambar-profil img {
- width: 250px;
+ width: 150px;
 height: 100px;
 margin-top:75px;
 margin-right:100px;
@@ -340,8 +341,8 @@ margin-left:35px
 
 /* project */
 .judul-project{
-    /* background-color: red; */
-    margin: 70px 50px 10px 180px;
+    background-color: red;
+    margin: 70px 0px 10px 180px;
     height:20px;
     font-weight: bold;
     font-size:25px;
