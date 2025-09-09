@@ -279,13 +279,13 @@ margin-left:250px
 .tentang h1{
     /* background-color:blue; */
     margin: 50px 0px 0px 5px;
-    font-size: 10px;
+    font-size: 20px;
     
 }
 
 .tentang h3{
     margin-left: 5px;
-    font-size: 7px;
+    font-size: 15px;
     margin-top:7px;
 }
 
@@ -298,8 +298,8 @@ margin-left:250px
 } */
 
 .gambar-profil img {
- width: 150px;
-height: 100px;
+ width: 250px;
+height: 200px;
 margin-top:75px;
 margin-right:100px;
 object-fit: cover;
@@ -342,7 +342,8 @@ margin-left:35px
 /* project */
 .judul-project{
     background-color: red;
-    margin: 70px 0px 10px 180px;
+    margin: 70px 0px 10px 100px;
+    padding-left:100px;
     height:20px;
     font-weight: bold;
     font-size:25px;
