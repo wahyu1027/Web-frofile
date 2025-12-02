@@ -407,12 +407,12 @@ margin-left:35px
     /* background-color:red; */
     display:flex;
     justify-content: space-between;
-    margin: 10px 10px 10px 20%;
+    margin: 10px 10px 10px 10%;
     padding: 5px 5px 5px 5px;
 }
 
 .sosial p {
-    padding: 5px 5px 5px 0px;
+    padding: 5px 15px 5px 0px;
     font-size:15px;
     font-weight:bold;
 }
